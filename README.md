@@ -1,4 +1,4 @@
-# I 💕 c programming.
+# I 💕 C programming.
 ## Show me the way
 # 100.c
 
