@@ -19,8 +19,8 @@ int main(void)
     
 for (outer =48;outer<=57;outer++)
    
- {
-        for (inner=48;inner<=57;inner++)
+ 
+for (inner=48;inner<=57;inner++)
 
     {
         if (inner == outer)
