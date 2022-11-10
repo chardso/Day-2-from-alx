@@ -1,17 +1,25 @@
 # 💕 c programing.
 ## Show me the way
 # 100.c
+
 #inclde <stdio.h>
+
 /**
+
 * main - Gateway pth of excution
+
 * return: 0 when sure deal
+
 */
 
 int main(void)
-/*{
-    int outer, inner;
-    for (outer =48;outer<=57;outer++)
-    {
+
+/*
+    int (outer, inner);
+    
+for (outer =48;outer<=57;outer++)
+   
+ {
         for (inner=48;inner<=57;inner++)
 
     {
