@@ -1,20 +1,17 @@
-0-isupper.c
-
 #include "main.h"
 /**
-* _isupper - returns 1 if upper case else 0
-* Return: 0
-* @C: is to be passed into the function
-* Checks if character is upper case
-*/
-int _isupper(int c)
+ * _isupper - returns 1 if the upper case else 0
+ * Return: 0
+ * @c: is to be passed into the function
+ * checks if character is upper case
+ * /
+init _isupper(int c)
 {
-      if isupper(c)
-       {
-              return (1);
-        }
-        else
-         {
-                return (0);
-          }
+      if _isupper(c)
+      return (1);
+} 
+else
+{
+      return (0);
+}
 }
