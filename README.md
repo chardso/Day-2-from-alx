@@ -135,7 +135,7 @@ OR
 - List all your file name **gcc -c add.c sub.c div.c mult.c** but it is stressful
 
 The above command will create co-responding object file names file.c -> file.o there is no need to specify the output file names
-**-c -> -** 
+**-c -> ** 
 - Stop the compiling after the assembly stage. Translate **.c to .o**
 
 Now the object files have been created
