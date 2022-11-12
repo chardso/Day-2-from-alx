@@ -131,11 +131,13 @@ gcc -c *.c
 OR
 
 **gcc -c -** all_your_file_names.c
-#List all your file name **gcc -c add.c sub.c div.c mult.c** but it is stressful
+
+- List all your file name **gcc -c add.c sub.c div.c mult.c** but it is stressful
 
 The above command will create co-responding object file names file.c -> file.o there is no need to specify the output file names
 
-**-c -> -** Stop the compiling after the assembly stage. Translate **.c to .o**
+**-c -> -** 
+- Stop the compiling after the assembly stage. Translate **.c to .o**
 
 Now the object files have been created
 
@@ -153,18 +155,21 @@ Now that we have the object files, they must be linked into an archive file with
 
 The **output** will be a pre-compiled object code file.
 
-**ar -rc liboperators.a *.o** Create archive and index it as well
+**ar -rc liboperators.a *.o** 
+- Create archive and index it as well
 **ar -rcs liboperators.a *.o**
  
 By conversion your archive file should file name should start with **lib** followed by the **name*". Example liboperators **"library for operators"**
 
-**-rc flags ->** recursively create the archive file.
-
+**-rc flags ->** 
+- recursively create the archive file.
 **r :** if the file exists overwrite its contents with newer one.
 
-**c :**  Create the archive if it does not exist.
+**c :**  
+- Create the archive if it does not exist.
 
-**s :** Add index to the archive or update it if it already exists.
+**s :** 
+- Add index to the archive or update it if it already exists.
 
 #### Indexing the library
 
@@ -202,9 +207,9 @@ int main(void)
 
 $ gcc  main.c -L. liboperators.a -o result 
 
--L. -> L dot: Locate the library file inside the current directory
+**-L. -> L dot:** Locate the library file inside the current directory
 
--o -> Save the output inside result. result will be an executable file
+**-o ->** Save the output inside result. result will be an executable file
       return (0);
       }
       */
