@@ -135,7 +135,6 @@ OR
 - List all your file name **gcc -c add.c sub.c div.c mult.c** but it is stressful
 
 The above command will create co-responding object file names file.c -> file.o there is no need to specify the output file names
-
 **-c -> -** 
 - Stop the compiling after the assembly stage. Translate **.c to .o**
 
@@ -154,7 +153,6 @@ Now the object files have been created
 Now that we have the object files, they must be linked into an archive file with the use of **ar** by the linker forming one large **.a file.**
 
 The **output** will be a pre-compiled object code file.
-
 **ar -rc liboperators.a *.o** 
 - Create archive and index it as well
 **ar -rcs liboperators.a *.o**
