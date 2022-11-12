@@ -38,31 +38,38 @@ for (inner=48;inner<=57;inner++)
         }
        }
       }
-      putchar(10);Static libraries
+      putchar(10);
+
+# Static libraries
 
 A static library is a collection of object code files in one archive file that can be shared by programs.
 
 Static library is made when object code .o files are linked together to form an archive .a file which can be used in any program that one of the functions in these file is used.
 
-Example.
+## Example.
 
 Files used for basic C operation.
 
     Prototype declaration
 
-main.h
+### main.h
 
 #ifndef MAIN_H
 #define MAIN_H
 
 #include <stdio.h>
 
-void add(int n, int m);
-void sub(int n, int m);
-void mult(int n, int m);
-void div(int n, int m);
+- **void add(int n, int m);**
 
-#endif
+- **void sub(int n, int m);**
+
+- **void mult(int n, int m);**
+
+- **void div(int n, int m);**
+
+
+
+**#endif**
 
     add.c
 
