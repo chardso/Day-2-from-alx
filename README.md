@@ -153,11 +153,11 @@ Now the object files have been created
 Now that we have the object files, they must be linked into an archive file with the use of **ar** by the linker forming one large **.a file.**
 
 The **output** will be a pre-compiled object code file.
+
 **ar -rc liboperators.a *.o** 
 - Create archive and index it as well
 **ar -rcs liboperators.a *.o**
- 
-By conversion your archive file should file name should start with **lib** followed by the **name*". Example liboperators **"library for operators"**
+ By conversion your archive file should file name should start with **lib** followed by the **name*". Example liboperators **"library for operators"**
 
 **-rc flags ->** 
 - recursively create the archive file.
