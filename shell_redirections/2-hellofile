@@ -1,0 +1,1 @@
+echo -e '#!/bin/bash\n cat/etc/passwd'>2-hellofile
