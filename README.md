@@ -3,21 +3,21 @@
 # 100.c
 
 
-#inclde <stdio.h>
+**#inclde <stdio.h>**
 
-/**
+/*
 
 * main - Gateway pth of excution
 
 * return: 0 when sure deal
 
-*/
+/*
 
-int main(void)
+**int main(void)**
 
 /*
 
-int (outer, inner);
+**int (outer, inner);**
 
 for (outer =48;outer<=57;outer++)
 
@@ -33,7 +33,7 @@ continue;
 
 }
 
-else
+**else**
 
 {
 
@@ -158,14 +158,22 @@ The above command will create co-responding object file names file.c -> file.o t
 Now the object files have been created
 
 **ls** 
-- add.c 
-- add.o 
-- sub.c 
-- sub.o 
-- mult.c 
-- mult.o 
-- div.c 
-- div.o Create the archive file
+
+**- add.c** 
+
+**- add.o** 
+
+**- sub.c** 
+
+**- sub.o** 
+
+**- mult.c** 
+
+**- mult.o** 
+
+**- div.c** 
+
+**- div.o Create the archive file**
 
 Now that we have the object files, they must be linked into an archive file with the use of **ar** by the linker forming one large **.a file.**
 
