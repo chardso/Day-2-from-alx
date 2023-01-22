@@ -159,21 +159,21 @@ Now the object files have been created
 
 **ls** 
 
-**- add.c** 
+- add.c
 
-**- add.o** 
+- add.o
 
-**- sub.c** 
+- sub.c
 
-**- sub.o** 
+- sub.o
 
-**- mult.c** 
+- mult.c
 
-**- mult.o** 
+- mult.o
 
-**- div.c** 
+- div.c
 
-**- div.o Create the archive file**
+- div.o Create the archive file
 
 Now that we have the object files, they must be linked into an archive file with the use of **ar** by the linker forming one large **.a file.**
 
